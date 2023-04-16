@@ -53,10 +53,10 @@ async def startup():
 async def shutdown():
     logger.info("shutting down e-wallet service...")
 
-app.include_router(login_router, tags=["login"])
-app.include_router(users_api, tags=["users"])
-app.include_router(bank_api, tags=["bank third party"])
+app.include_router(users_api, tags=["sign up"])
+app.include_router(login_router, tags=["sign in"])
 app.include_router(payment_api, tags=["payment"])
+app.include_router(bank_api, tags=["bank third party / topup"])
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
