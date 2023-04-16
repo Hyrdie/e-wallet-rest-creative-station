@@ -1,5 +1,5 @@
-# e-wallet-rest-creative-solution
-For the creative solution dev test
+# e-wallet-rest-creative-station
+For the creative station dev test
 Build with python 3.8 + FastAPI
 
 Run task 1 and 2
