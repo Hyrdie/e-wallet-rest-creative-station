@@ -6,8 +6,10 @@ Run task 1 and 2
 ------------------
 Go into directory called task-1-and-2
 simply run:
-python3 palindrome.py (task 1)
-python3 sudoku.py (task 2)
+```
+python3 palindrome.py
+python3 sudoku.py
+```
 in your terminal or cmd
 
 
