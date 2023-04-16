@@ -21,14 +21,20 @@ Virtual Environment
 To run the project, you must create and activate the virtual environment first.
 
 Windows : 
-- python3 -m venv env
-- cd env/Script/activate
+```
+python3 -m venv env
+cd env/Script/activate
+```
 
 Linux : 
-- python3 -m venv env
-- source ./env/bin/activate
-- install dependencies from requirements.txt (file is inside the app folder)
-- pip3 install -r requirements.txt
+```
+python3 -m venv env
+source ./env/bin/activate
+```
+install dependencies from requirements.txt (file is inside the app folder)
+```
+pip3 install -r requirements.txt
+```
 
 after that, you must create .env file with the value below (copy all of this):
 ```
