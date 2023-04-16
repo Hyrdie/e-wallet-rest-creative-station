@@ -1,0 +1,11 @@
+fastapi_utils==0.2.1
+uvicorn==0.16.0
+python-dotenv==0.19.2
+fastapi==0.70.1
+requests==2.27.1
+pymysql==1.0.2
+databases==0.5.3
+psycopg2-binary
+asyncpg==0.25.0
+PyJWT==1.7.1
+redis==4.3.4
